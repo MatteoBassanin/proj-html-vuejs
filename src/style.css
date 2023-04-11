@@ -12,8 +12,8 @@
   border-radius: 6px;
   max-width: 150px;
   text-align: center;
-  padding: 5px;
-
+  padding: 10px 15px;
+  display: inline-block;
 }
 
 
@@ -66,12 +66,17 @@
   color: var(--font-secondary);
 }
 
+.c_text_grey {
+  color: var(--grey-text)
+}
+
 :root {
-  --primary_color: #007777;
+  --primary_color: rgb(0, 119, 119);
   --font-color: #131216;
   --header-top: #444F5A;
   --font-secondary: #E5EbE5;
-
+  --primary_color_darker: #048383;
+  --grey-text: #71939c
 }
 
 

@@ -28,7 +28,8 @@
 
                 <div class="inner_container d_flex justify_between w_70 m_auto">
                     <div class="container_left">
-                        <div class="bot_logo">logo</div>
+                        <div class="bot_logo pd_20"><span class="beginning_logo">NEX</span> <span
+                                class="ending_logo c_text_top ">GEN</span></div>
                     </div>
                     <div class="container_right">
                         <nav>
@@ -37,7 +38,16 @@
                             </ul>
                             <div class="button solid nav_button "><a href="#">GET IN TOUCH</a> </div>
                         </nav>
+                        <div class="title_jumbo c_text_top m_auto">
+                            <h1>Logistics that goes further.</h1>
+                            <p class="c_text_grey parapragh">For 20 years working with the most innovative in the field of
+                                transport
+                            </p>
+                            <div class="button solid bot_left"><a href="#">GET IN TOUCH</a> </div>
+                            <div class="button "><a href="#">READ MORE</a> </div>
 
+
+                        </div>
                     </div>
                 </div>
 
@@ -84,9 +94,6 @@ i {
     height: 850px;
     background-image: url("../public/img/jumbo.jpg");
     background-position: bottom;
-    filter: opacity(100%);
-
-
 }
 
 .bottom_wrapper {
@@ -119,7 +126,36 @@ a {
     position: relative;
     bottom: 42px;
     left: 480px;
+}
+
+.solid {
     color: white;
     background-color: #007777;
+}
+
+.beginning_logo {
+    color: #11A3A2;
+    background-color: rgba(0, 119, 119, 0.4);
+    padding: 5px 5px 5px 20px;
+    border-radius: 15px 0 0 15px;
+}
+
+h1 {
+    font-size: 62px;
+    box-shadow: 10px 10px;
+}
+
+.parapragh {
+    font-size: 20px;
+    padding: 20px 0 40px;
+}
+
+.title_jumbo {
+
+    max-width: 400px;
+}
+
+.bot_left {
+    margin: 0 15px 0 0;
 }
 </style>
