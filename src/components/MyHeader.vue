@@ -57,11 +57,21 @@
 
 
 <script>
+import { store } from '../store';
+
+
+
 export default {
     name: "MyHeader",
 
     props: {
         linkTop: Array,
+    },
+
+    data() {
+        return {
+            store
+        }
     }
 }
 </script>

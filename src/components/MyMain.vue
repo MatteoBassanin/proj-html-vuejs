@@ -12,7 +12,8 @@
                 <div class="button solid"> READ MORE</div>
             </div>
             <div class="cards">
-                <MyCard></MyCard>
+                <MyCard v-for="card in store.cardArray" :cardInfo="store.cardArray" :textinfo="card.description"
+                    :title="card.title" :picture="card.img"></MyCard>
             </div>
         </div>
     </div>
@@ -21,6 +22,7 @@
 
 <script>
 import MyCard from './MyCard.vue';
+import { store } from '../store';
 
 
 export default {
@@ -32,13 +34,7 @@ export default {
 
     data() {
         return {
-            cardArray: [
-                {
-                    img:,
-                    title: "Technology",
-                    description: "Focused on developing technology solutions adapted to our client's needs"
-                }
-            ]
+            store,
         }
     }
 }
