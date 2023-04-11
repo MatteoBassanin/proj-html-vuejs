@@ -21,40 +21,37 @@
                 </span>
             </div>
         </div>
-        <div class="container_bottom">
-            <div class="bottom_wrapper fs_14">
+    </div>
+    <div class="container_bottom">
+        <div class="bottom_wrapper fs_14">
+            <div class="inner_container d_flex justify_between w_70 m_auto">
+                <div class="container_left">
+                    <div class="bot_logo pd_20"><span class="beginning_logo">NEX</span> <span
+                            class="ending_logo c_text_top ">GEN</span></div>
+                </div>
+                <div class="container_right">
+                    <nav>
+                        <ul class="d_flex">
+                            <li class="pd_20" v-for="link in linkTop"><a href="#">{{ link.linkName }}</a></li>
+                        </ul>
+                        <div class="button solid nav_button "><a href="#">GET IN TOUCH</a> </div>
+                    </nav>
+                    <div class="title_jumbo c_text_top m_auto">
+                        <h1 class="first_word">Logistics</h1>
+                        <h1> that goes further.</h1>
+                        <p class="c_text_grey parapragh">For 20 years working with the most innovative in the field of
+                            transport
+                        </p>
+                        <div class="button solid bot_left"><a href="#">GET IN TOUCH</a> </div>
+                        <div class="button "><a href="#">READ MORE</a> </div>
 
 
-
-                <div class="inner_container d_flex justify_between w_70 m_auto">
-                    <div class="container_left">
-                        <div class="bot_logo pd_20"><span class="beginning_logo">NEX</span> <span
-                                class="ending_logo c_text_top ">GEN</span></div>
-                    </div>
-                    <div class="container_right">
-                        <nav>
-                            <ul class="d_flex">
-                                <li class="pd_20" v-for="link in linkTop"><a href="#">{{ link.linkName }}</a></li>
-                            </ul>
-                            <div class="button solid nav_button "><a href="#">GET IN TOUCH</a> </div>
-                        </nav>
-                        <div class="title_jumbo c_text_top m_auto">
-                            <h1>Logistics that goes further.</h1>
-                            <p class="c_text_grey parapragh">For 20 years working with the most innovative in the field of
-                                transport
-                            </p>
-                            <div class="button solid bot_left"><a href="#">GET IN TOUCH</a> </div>
-                            <div class="button "><a href="#">READ MORE</a> </div>
-
-
-                        </div>
                     </div>
                 </div>
-
-
             </div>
-        </div>
 
+
+        </div>
     </div>
 </template>
 
@@ -91,7 +88,7 @@ i {
 }
 
 .container_bottom {
-    height: 850px;
+    height: 700px;
     background-image: url("../public/img/jumbo.jpg");
     background-position: bottom;
 }
@@ -128,10 +125,6 @@ a {
     left: 480px;
 }
 
-.solid {
-    color: white;
-    background-color: #007777;
-}
 
 .beginning_logo {
     color: #11A3A2;
@@ -142,8 +135,9 @@ a {
 
 h1 {
     font-size: 62px;
-    box-shadow: 10px 10px;
+
 }
+
 
 .parapragh {
     font-size: 20px;

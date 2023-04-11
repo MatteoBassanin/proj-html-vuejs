@@ -5,10 +5,18 @@
   font-family: sans-serif;
 }
 
+.small_tag {
+  background-color: #CCE3DE;
+  display: inline-block;
+  margin: 20px 6px 20px 0;
+  padding: 5px;
+  border-radius: 5px;
+  color: var(--primary_color);
+
+}
 
 .button {
   border: 1px solid var(--primary_color);
-
   border-radius: 6px;
   max-width: 150px;
   text-align: center;
@@ -16,7 +24,10 @@
   display: inline-block;
 }
 
-
+.solid {
+  color: white;
+  background-color: #007777;
+}
 
 /* utilities */
 
@@ -76,7 +87,8 @@
   --header-top: #444F5A;
   --font-secondary: #E5EbE5;
   --primary_color_darker: #048383;
-  --grey-text: #71939c
+  --grey-text: #71939c;
+  --background-top-main: #edf4ec
 }
 
 
