@@ -2,10 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 
+.button {
+  border: 1px solid var(--primary_color);
 
+  border-radius: 6px;
+  max-width: 150px;
+  text-align: center;
+  padding: 5px;
+
+}
 
 
 
@@ -72,4 +81,16 @@ li {
 
 .pd_10 {
   padding: 10px;
+}
+
+.pd_20 {
+  padding: 20px;
+}
+
+.fs_14 {
+  font-size: 14px;
+}
+
+.fs_12 {
+  font-size: 12px;
 }

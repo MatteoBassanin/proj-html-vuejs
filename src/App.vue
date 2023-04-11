@@ -1,5 +1,5 @@
 <template>
-  <MyHeader></MyHeader>
+  <MyHeader :linkTop="linkHeader"></MyHeader>
 </template>
 
 
@@ -19,7 +19,24 @@ export default {
 
   data() {
     return {
+      linkHeader: [
+        {
+          linkName: "HOME"
+        },
+        {
+          linkName: "SERVICES"
+        },
+        {
+          linkName: "SKILLS"
+        },
+        {
+          linkName: "PARTNERS"
+        },
+        {
+          linkName: "BLOG"
+        },
 
+      ],
     }
   }
 }
