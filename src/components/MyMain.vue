@@ -17,11 +17,13 @@
             </div>
         </div>
     </div>
+    <MyMainCompany></MyMainCompany>
 </template>
 
 
 <script>
 import MyCard from './MyCard.vue';
+import MyMainCompany from './MyMainCompany.vue';
 import { store } from '../store';
 
 
@@ -29,7 +31,8 @@ export default {
     name: "MyMain",
 
     components: {
-        MyCard
+        MyCard,
+        MyMainCompany
     },
 
     data() {

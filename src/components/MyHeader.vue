@@ -25,13 +25,13 @@
     <div class="container_bottom">
         <div class="bottom_wrapper fs_14">
             <div class="inner_container d_flex justify_between w_70 m_auto">
-                <div class="container_left">
+                <div class="container_left fs_17">
                     <div class="bot_logo pd_20"><span class="beginning_logo">NEX</span> <span
                             class="ending_logo c_text_top ">GEN</span></div>
                 </div>
                 <div class="container_right">
                     <nav>
-                        <ul class="d_flex">
+                        <ul class="d_flex fs_17">
                             <li class="pd_20" v-for="link in linkTop"><a href="#">{{ link.linkName }}</a></li>
                         </ul>
                         <div class="button solid nav_button "><a href="#">GET IN TOUCH</a> </div>
@@ -137,7 +137,8 @@ a {
 .nav_button {
     position: relative;
     bottom: 47px;
-    left: 490px;
+    left: 540px;
+    padding: 10px 20px;
 }
 
 
