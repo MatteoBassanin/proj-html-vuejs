@@ -1,13 +1,18 @@
 <template>
-    <MyMainservices></MyMainservices>
+    <MyMainServices></MyMainServices>
     <MyMainCompany></MyMainCompany>
+    <MyMainSponsor></MyMainSponsor>
+    <MyMainNews></MyMainNews>
 </template>
 
 
 <script>
 import MyCard from './MyCard.vue';
-import MyMainservices from './MyMainServices.vue';
+import MyCardNews from './MyCardNews.vue';
+import MyMainServices from './MyMainservices.vue';     //attenzione alla s della stringa MyMainServices se cambiata dà un errore
+import MyMainSponsor from './MyMainSponsor.vue';
 import MyMainCompany from './MyMainCompany.vue';
+import MyMainNews from './MyMainNews.vue';
 import { store } from '../store';
 
 
@@ -17,7 +22,10 @@ export default {
     components: {
         MyCard,
         MyMainCompany,
-        MyMainservices
+        MyMainServices,
+        MyMainSponsor,
+        MyMainNews,
+        MyCardNews
 
     },
 

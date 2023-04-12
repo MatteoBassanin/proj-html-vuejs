@@ -8,7 +8,7 @@
                 <ul>
                     <li class="d_flex">
                         <div class="list_left">
-                            <div class="percentage"> 0%</div>
+                            <div class="percentage"> 0 <span class="symbol_percentage">%</span> </div>
                         </div>
                         <div class="list_right">
                             <h3>Leadership</h3>
@@ -17,7 +17,7 @@
                     </li>
                     <li class="d_flex">
                         <div class="list_left">
-                            <div class="percentage"> 0%</div>
+                            <div class="percentage"> 0 <span class="symbol_percentage">%</span></div>
                         </div>
                         <div class="list_right">
                             <h3>Psychology</h3>
@@ -26,7 +26,7 @@
                     </li>
                     <li class="d_flex">
                         <div class="list_left">
-                            <div class="percentage"> 1%</div>
+                            <div class="percentage"> 1 <span class="symbol_percentage">%</span></div>
                             <div class="one_per_cent"></div>
                         </div>
                         <div class="list_right">
@@ -99,6 +99,11 @@ export default {
     border-radius: 50%;
     padding: 30px;
     font-size: 25px;
+}
+
+.symbol_percentage {
+    font-size: 15px;
+
 }
 
 .one_per_cent {

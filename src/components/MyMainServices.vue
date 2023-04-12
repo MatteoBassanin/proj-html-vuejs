@@ -13,7 +13,7 @@
                 <div class="small_tag">Security</div>
                 <div class="button_container">
 
-                    <div class="button solid"> READ MORE</div>
+                    <div class="button solid"> <a href="#">READ MORE</a> </div>
                 </div>
             </div>
             <div class="cards d_flex">
@@ -79,5 +79,13 @@ h2 {
 
 .description.button {
     margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button a {
+    color: var(--font-secondary)
 }
 </style>
