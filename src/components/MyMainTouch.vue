@@ -3,7 +3,7 @@
         <div class="container w_70 m_auto d_flex justify_between h_100">
             <div class="col_left">
                 <div class="text_left_top">
-                    <h4>SEND A MESSAGE</h4>
+                    <h4 class="c_green_text">SEND A MESSAGE</h4>
                     <h2>Get in <span class="boxed">Touch</span></h2>
                     <p>We will respond to your message as soon as possible</p>
                 </div>
@@ -29,16 +29,16 @@
             </div>
             <div class="col_right">
                 <div class="text_right_top">
-                    <h3>Example inc.</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <h3 class="right_text">Example inc.</h3>
+                    <p class="right_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <p class="right_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
-                <div class="contacts">
-                    <div class="number">+1 (305) 1234-5678</div>
-                    <div class="e_mail">hello@example.com</div>
-                    <div class="location">Main Avenue, 987</div>
+                <div class="contacts c_green_text">
+                    <div class="number"><i class="fa-solid fa-phone"></i>+1 (305) 1234-5678</div>
+                    <div class="e_mail"><i class="fa-solid fa-envelope"></i>hello@example.com</div>
+                    <div class="location"><i class="fa-solid fa-location-dot"></i>Main Avenue, 987</div>
                 </div>
-                <div class="button_container">
+                <div class="button_container c_green_text">
                     <div class="button">VIEW MAP</div>
                 </div>
             </div>
@@ -73,6 +73,56 @@ export default {
 }
 
 .container {
-    padding: 50px 120px 0 20px;
+    padding: 50px 120px 0 15px;
+}
+
+h2 {
+    padding: 20px 0;
+}
+
+i {
+    background-color: var(--rounded_border);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.boxed {
+    background-color: var(--rounded_border);
+    padding: 10px;
+    color: var(--primary_color);
+}
+
+.text_left_top,
+.text_right_top {
+    padding: 50px 0;
+}
+
+
+.right_text {
+    padding: 10px 0;
+}
+
+input {
+    padding: 10px 90px;
+}
+
+textarea {
+    padding: 0 220px;
+}
+
+select {
+    padding: 10px 125px;
+}
+
+.row {
+    padding: 10px 0;
+}
+
+.button_container,
+select,
+textarea,
+input,
+.text_left_top {
+    margin: 0 5px;
 }
 </style>
