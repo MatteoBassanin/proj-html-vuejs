@@ -3,6 +3,8 @@
     <MyMainCompany></MyMainCompany>
     <MyMainSponsor></MyMainSponsor>
     <MyMainNews></MyMainNews>
+    <MyMainKnow></MyMainKnow>
+    <MyMainTouch></MyMainTouch>
 </template>
 
 
@@ -13,6 +15,8 @@ import MyMainServices from './MyMainservices.vue';     //attenzione alla s della
 import MyMainSponsor from './MyMainSponsor.vue';
 import MyMainCompany from './MyMainCompany.vue';
 import MyMainNews from './MyMainNews.vue';
+import MyMainKnow from './MyMainKnow.vue';
+import MyMainTouch from './MyMainTouch.vue';
 import { store } from '../store';
 
 
@@ -25,7 +29,9 @@ export default {
         MyMainServices,
         MyMainSponsor,
         MyMainNews,
-        MyCardNews
+        MyCardNews,
+        MyMainKnow,
+        MyMainTouch
 
     },
 
