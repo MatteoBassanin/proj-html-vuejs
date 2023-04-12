@@ -37,7 +37,7 @@ export default {
     background-color: white;
     text-align: center;
     border-radius: 15px;
-    width: 350px;
+    width: 330px;
     height: 410px;
 }
 

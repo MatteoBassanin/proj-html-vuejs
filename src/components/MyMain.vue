@@ -1,28 +1,12 @@
 <template>
-    <div class="wrapper">
-        <div class="container w_80 d_flex m_auto">
-            <div class="description">
-                <h4>OUR BUSINESS AREAS</h4>
-                <h2>Logistics Services</h2>
-                <p>We are leaders in providing logistics services with a set of cutting edge technologies and a team of
-                    experienced and renowed professionals.</p>
-                <div class="small_tag">Tradition</div>
-                <div class="small_tag">Quality</div>
-                <div class="small_tag">Security</div>
-                <div class="button solid"> READ MORE</div>
-            </div>
-            <div class="cards d_flex">
-                <MyCard v-for="card in store.cardArray" :cardInfo="store.cardArray" :textinfo="card.description"
-                    :title="card.title" :picture="card.img"></MyCard>
-            </div>
-        </div>
-    </div>
+    <MyMainservices></MyMainservices>
     <MyMainCompany></MyMainCompany>
 </template>
 
 
 <script>
 import MyCard from './MyCard.vue';
+import MyMainservices from './MyMainServices.vue';
 import MyMainCompany from './MyMainCompany.vue';
 import { store } from '../store';
 
@@ -32,7 +16,9 @@ export default {
 
     components: {
         MyCard,
-        MyMainCompany
+        MyMainCompany,
+        MyMainservices
+
     },
 
     data() {
@@ -44,37 +30,4 @@ export default {
 </script>
 
 
-<style scoped>
-.wrapper {
-    background-color: var(--background-top-main);
-    height: 700px;
-}
-
-h4 {
-    color: var(--primary_color);
-    font-size: 14px;
-    padding-bottom: 20px;
-}
-
-h2 {
-    font-size: 35px
-}
-
-.description {
-    width: calc(100% / 3);
-
-}
-
-.cards,
-.description {
-    padding: 110px;
-}
-
-.description p {
-    font-size: 14px;
-}
-
-.description.button {
-    margin: 10px;
-}
-</style>
+<style scoped></style>
