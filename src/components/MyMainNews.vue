@@ -1,11 +1,11 @@
 <template>
     <div class="wrapper">
-        <div class="container w_80 m_auto">
+        <div class="container w_70 m_auto">
             <div class=" d_flex justify_between">
                 <div class="title_description">
-                    <h4>OUR EDITORIAL CONTENT</h4>
-                    <h2>Latest <span class="boxed"> News</span></h2>
-                    <p>Every week we publish content about what is best in the business world</p>
+                    <h4 class="c_green_text">OUR EDITORIAL CONTENT</h4>
+                    <h2>Latest <span class="boxed c_green_text"> News</span></h2>
+                    <p class="decription">Every week we publish content about what is best in the business world</p>
                 </div>
                 <div class="button_container">
                     <div class="button solid">SEE ALL</div>
@@ -37,3 +37,31 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+.wrapper {
+    padding: 35px;
+}
+
+h2 {
+    padding: 20px 0;
+}
+
+.boxed {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: var(--light_boxed_color);
+}
+
+
+.button_container {
+    align-self: center;
+    position: relative;
+    right: 75px;
+}
+
+.decription {
+    color: var(--font-color);
+    padding-bottom: 40px;
+}
+</style>

@@ -37,18 +37,21 @@ export default {
 <style scoped>
 img {
     object-fit: cover;
-    width: 100%;
-    filter: brightness(50%)
+    width: 350px;
+    filter: brightness(50%);
+    border-radius: 20px;
 }
 
 .container {
     width: 100%;
+
 }
 
 .card_wrapper {
 
     width: calc(100% / 3);
-    padding-left: 20px;
+
+
 
 }
 
@@ -56,7 +59,9 @@ p {
     text-align: center;
     position: relative;
     bottom: 150px;
+    left: 40px;
     color: white;
     font-size: 25px;
+    max-width: 250px;
 }
 </style>

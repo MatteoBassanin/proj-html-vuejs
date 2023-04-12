@@ -29,6 +29,8 @@
   background-color: #007777;
 }
 
+
+
 /* utilities */
 
 
@@ -96,7 +98,8 @@
   --background-top-main: #edf4ec;
   --circle-color: #212126;
   --boxed_color: #0F272D;
-  --company_text: #C0C3D0
+  --company_text: #C0C3D0;
+  --light_boxed_color: #DAECED;
 }
 
 

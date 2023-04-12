@@ -37,11 +37,11 @@ export default {
 }
 
 li {
-    padding: 0 40px;
+    padding: 0 35px;
 }
 
 img {
-    height: 40px;
+    height: 35px;
     filter: invert(40%);
 }
 </style>
