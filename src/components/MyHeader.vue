@@ -81,12 +81,17 @@ export default {
 .wrapper {
     background-color: var(--header-top);
     height: 40px;
+    width: 100vw;
 }
 
 .contacts {
-    padding-right: 58px;
+    padding-right: 130px;
 }
 
+/* .opening_hours,
+.container_left {
+    padding-left: 60px;
+} */
 
 a {
     color: var(--font-secondary);
@@ -100,7 +105,7 @@ i {
 .container_bottom {
     height: 700px;
     background-image: url("../public/img/jumbo.jpg");
-    background-position: bottom;
+    background-position: 90% 60%;
 }
 
 .bottom_wrapper {
@@ -131,8 +136,8 @@ a {
 
 .nav_button {
     position: relative;
-    bottom: 42px;
-    left: 480px;
+    bottom: 47px;
+    left: 490px;
 }
 
 

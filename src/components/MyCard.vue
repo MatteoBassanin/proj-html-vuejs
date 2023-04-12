@@ -1,8 +1,10 @@
 <template>
     <div class="card_container">
         <img :src="picture" alt="">
-        <h1>{{ title }}</h1>
-        <p>{{ textinfo }}</p>
+        <div class="text">
+            <h3>{{ title }}</h3>
+            <p>{{ textinfo }}</p>
+        </div>
     </div>
 </template>
 
@@ -29,4 +31,32 @@ export default {
 </script>
 
 
-<style scoped></style>
+<style scoped>
+.card_container {
+    margin: 0 10px;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    width: 350px;
+    height: 410px;
+}
+
+img {
+    width: 240px;
+    height: 165px;
+    margin-top: 40px;
+
+}
+
+.text {
+    max-width: 240px;
+    margin: auto;
+    text-align: left;
+    padding: 10px 0;
+}
+
+p {
+    font-size: 14px;
+    padding: 10px 0;
+}
+</style>

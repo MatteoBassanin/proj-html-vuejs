@@ -11,7 +11,7 @@
                 <div class="small_tag">Security</div>
                 <div class="button solid"> READ MORE</div>
             </div>
-            <div class="cards">
+            <div class="cards d_flex">
                 <MyCard v-for="card in store.cardArray" :cardInfo="store.cardArray" :textinfo="card.description"
                     :title="card.title" :picture="card.img"></MyCard>
             </div>
@@ -59,6 +59,11 @@ h2 {
 
 .description {
     width: calc(100% / 3);
+
+}
+
+.cards,
+.description {
     padding: 110px;
 }
 
