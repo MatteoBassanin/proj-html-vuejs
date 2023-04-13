@@ -72,13 +72,8 @@ export default {
     height: 600px;
 }
 
-.col_right {
-    padding-left: 80px
-}
 
-;
 
-.container {}
 
 h2 {
     padding: 20px 0;
@@ -159,7 +154,7 @@ p {
 }
 
 .col_left {
-    padding-right: 130px;
+    padding-right: 30px;
 }
 
 a {

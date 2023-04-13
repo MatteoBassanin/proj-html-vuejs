@@ -8,7 +8,7 @@
                     <p class="decription">Every week we publish content about what is best in the business world</p>
                 </div>
                 <div class="button_container">
-                    <div class="button solid">SEE ALL</div>
+                    <div class="button solid"> <a href="#">SEE ALL</a></div>
                 </div>
             </div>
             <div class="list_card_news d_flex justify_between">
@@ -61,5 +61,10 @@ h2 {
 .decription {
     color: var(--font-color);
     padding-bottom: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 </style>

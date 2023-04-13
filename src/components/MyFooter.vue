@@ -67,16 +67,11 @@ export default {
 
 
 <style scoped>
-/* .container {
-    margin-left: 145px;
-} */
-
 .wrapper {
     height: 700px;
     background-image: url("./img/bg-10.jpg");
     background-position: center;
 }
-
 
 .bot_logo {
     padding: 20px 0;
@@ -108,18 +103,16 @@ a {
 .col {
     padding: 30px 10px 50px 10px;
     width: calc(100% / 5 - 20px);
+    height: 350px;
 }
 
-.first {
-    padding-top: 30px;
-}
+
 
 p {
     padding: 15px 0;
 }
 
 i {
-    /* color: var(--font-secondary); */
     padding-right: 10px;
 }
 
@@ -139,6 +132,10 @@ h3 {
 
 li {
     padding: 5px 0;
+}
+
+.first {
+    padding: 0;
 }
 
 .first,

@@ -31,7 +31,7 @@
                 </div>
                 <div class="container_right">
                     <nav>
-                        <ul class="d_flex fs_17">
+                        <ul class="d_flex fs_14">
                             <li class="pd_20" v-for="link in linkTop"><a href="#">{{ link.linkName }}</a></li>
                             <li class="button_container">
                                 <div class="button solid nav_button "><a href="#">GET IN TOUCH</a> </div>

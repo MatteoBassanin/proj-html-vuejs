@@ -14,7 +14,7 @@
                     <input type="text" placeholder="Email">
                 </div>
                 <div class="botton_container">
-                    <div class="button solid">SUBSCRIBE</div>
+                    <div class="button solid"><a href="#">SUBSCRIBE</a></div>
                 </div>
             </div>
         </div>
@@ -84,5 +84,10 @@ p {
 
 .botton_container {
     padding: 10px 0 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 </style>
