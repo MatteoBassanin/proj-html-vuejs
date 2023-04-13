@@ -87,6 +87,9 @@
   color: var(--primary_color);
 }
 
+.c_third_font {
+  color: var(--third-font);
+}
 
 :root {
   --primary_color: #007777;
@@ -100,7 +103,8 @@
   --boxed_color: #0F272D;
   --company_text: #C0C3D0;
   --light_boxed_color: #DAECED;
-  --rounded_border: #B7CCC7
+  --rounded_border: #B7CCC7;
+  --third-font: #919194;
 }
 
 

@@ -1,6 +1,7 @@
 <template>
   <MyHeader :linkTop="linkHeader"></MyHeader>
   <MyMain></MyMain>
+  <MyFooter></MyFooter>
 </template>
 
 

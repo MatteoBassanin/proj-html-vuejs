@@ -28,6 +28,39 @@ export const store = reactive(
                 img: "img/news-3.jpg",
                 description: "Working from home is now a trend"
             }
+        ],
+
+        arrayFooter: [
+            {
+                about: "The Company",
+                transport: "industrialized",
+                support: "Responsability"
+            },
+            {
+                about: "Institutional",
+                transport: "Chemicals",
+                support: "Term of Use"
+            },
+            {
+                about: "Social & Events",
+                transport: "Packaged Liquids",
+                support: "About Cookies"
+            },
+            {
+                about: "Innovation",
+                transport: "Construction",
+                support: "Privacy Policy"
+            },
+            {
+                about: "Environment",
+                transport: "Laminated Wood",
+                support: "Accessibility"
+            },
+            {
+                about: "Technology",
+                transport: "And others",
+                support: "Information"
+            },
         ]
     }
 );

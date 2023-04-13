@@ -14,8 +14,8 @@
                     </div>
                     <div class="second row">
                         <input type="text" placeholder="phone">
-                        <select name="" id="">
-                            <option value="">More Info</option>
+                        <select name="" id="" class="c_text_grey">
+                            <option value="">More info</option>
                         </select>
                     </div>
                     <div class="third row">
@@ -34,9 +34,9 @@
                     <p class="right_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="contacts c_green_text">
-                    <div class="number"><i class="fa-solid fa-phone"></i>+1 (305) 1234-5678</div>
-                    <div class="e_mail"><i class="fa-solid fa-envelope"></i>hello@example.com</div>
-                    <div class="location"><i class="fa-solid fa-location-dot"></i>Main Avenue, 987</div>
+                    <div class="icon number"><i class="fa-solid fa-phone"></i>+1 (305) 1234-5678</div>
+                    <div class="icon e_mail"><i class="fa-solid fa-envelope"></i>hello@example.com</div>
+                    <div class="icon location"><i class="fa-solid fa-location-dot"></i>Main Avenue, 987</div>
                 </div>
                 <div class="button_container c_green_text">
                     <div class="button">VIEW MAP</div>
@@ -99,7 +99,7 @@ i {
 
 
 .right_text {
-    padding: 10px 0;
+    padding: 7px 0;
 }
 
 input {
@@ -124,5 +124,17 @@ textarea,
 input,
 .text_left_top {
     margin: 0 5px;
+}
+
+
+select,
+textarea,
+input {
+    background-color: #DCE2DB;
+    border: none;
+}
+
+.icon {
+    padding: 10px 0;
 }
 </style>
