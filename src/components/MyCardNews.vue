@@ -37,7 +37,7 @@ export default {
 <style scoped>
 img {
     object-fit: cover;
-    width: 350px;
+    width: 365px;
     filter: brightness(50%);
     border-radius: 20px;
 }
@@ -48,18 +48,14 @@ img {
 }
 
 .card_wrapper {
-
-    width: calc(100% / 3);
-
-
-
+    width: calc(100% / 3 - 20px)
 }
 
 p {
     text-align: center;
     position: relative;
-    bottom: 150px;
-    left: 40px;
+    bottom: 130px;
+    left: 60px;
     color: white;
     font-size: 25px;
     max-width: 250px;

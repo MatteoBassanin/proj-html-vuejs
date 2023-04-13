@@ -1,6 +1,6 @@
 <template>
     <div class="wrapper">
-        <div class="container w_70 m_auto d_flex justify_between h_100">
+        <div class="container w_80 m_auto d_flex justify_between h_100">
             <div class="col_left">
                 <div class="text_left_top">
                     <h4 class="c_green_text">SEND A MESSAGE</h4>
@@ -38,8 +38,8 @@
                     <div class="icon e_mail"><i class="fa-solid fa-envelope"></i>hello@example.com</div>
                     <div class="icon location"><i class="fa-solid fa-location-dot"></i>Main Avenue, 987</div>
                 </div>
-                <div class="button_container c_green_text">
-                    <div class="button">VIEW MAP</div>
+                <div class="button_container ">
+                    <div class="button"><a href="#">VIEW MAP</a></div>
                 </div>
             </div>
         </div>
@@ -74,6 +74,7 @@ export default {
 
 .container {
     padding: 50px 120px 0 15px;
+    /* margin-left: 133px; */
 }
 
 h2 {
@@ -101,6 +102,7 @@ i {
 
 .right_text {
     padding: 7px 0;
+    max-width: 350px;
 }
 
 input,
@@ -151,5 +153,14 @@ p {
 
 .icon {
     padding: 10px 0;
+}
+
+.col_left {
+    padding: 0 150px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary_color)
 }
 </style>

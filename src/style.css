@@ -50,9 +50,20 @@
   justify-content: space-between;
 }
 
+.flex_end {
+  justify-content: end;
+}
 
 .align_center {
   align-items: center;
+}
+
+.align_between {
+  align-content: space-between;
+}
+
+.d_colomn {
+  flex-direction: column;
 }
 
 .w_100 {
@@ -97,6 +108,10 @@
 
 .c_font_color_placeholder {
   color: #6A6A6A
+}
+
+.c_font_color_dark {
+  color: var(--font-color)
 }
 
 :root {

@@ -5,7 +5,8 @@
                 <h4>OUR BUSINESS AREAS</h4>
                 <h2>Logistics</h2>
                 <h2>Services</h2>
-                <p>We are leaders in providing logistics services with a set of cutting edge technologies and
+                <p class="paragraph">We are leaders in providing logistics services with a set of cutting edge technologies
+                    and
                     a team of
                     experienced and renowed professionals.</p>
                 <div class="small_tag">Tradition</div>
@@ -73,9 +74,9 @@ h2 {
     padding: 110px 0 0 110px;
 }
 
-/* .description p {
-    font-size: 14px;
-} */
+.paragraph p {
+    color: red;
+}
 
 .description.button {
     margin: 10px;

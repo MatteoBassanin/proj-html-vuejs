@@ -57,7 +57,7 @@ h2 {
 .button_container {
     align-self: center;
     position: relative;
-    right: 75px;
+    right: 100px;
 }
 
 .decription {

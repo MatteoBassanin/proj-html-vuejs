@@ -2,7 +2,7 @@
     <div class="card_container">
         <img :src="picture" alt="">
         <div class="text">
-            <h3>{{ title }}</h3>
+            <h3 class="c_font_color_dark">{{ title }}</h3>
             <p>{{ textinfo }}</p>
         </div>
     </div>
@@ -38,7 +38,7 @@ export default {
     text-align: center;
     border-radius: 15px;
     width: 330px;
-    height: 410px;
+    height: 370px;
 }
 
 img {
@@ -49,10 +49,11 @@ img {
 }
 
 .text {
-    max-width: 240px;
+    max-width: 190px;
     margin: auto;
     text-align: left;
     padding: 10px 0;
+    color: var(--font_text_paragraph);
 }
 
 p {

@@ -1,10 +1,11 @@
 <template>
     <div class="wrapper_company d_flex justify_between">
-        <div class="container_left">
-            <div class="container w_80 m_auto c_text_top">
+        <div class="container_left h_100 d_flex align_center flex_end">
+            <div class="container_inner c_text_top">
                 <h4 class="c_green_text">ABOUT THE NETWORK</h4>
                 <h2 class="title_left"><span class="boxed">The</span> Company</h2>
-                <p>With all of this expoertise and capability coems an unrivalled commitment to customer service</p>
+                <p class="description">With all of this expoertise and capability coems an unrivalled commitment to customer
+                    service</p>
                 <ul>
                     <li class="d_flex">
                         <div class="list_left">
@@ -66,11 +67,11 @@ export default {
 
 <style scoped>
 .wrapper_company {
-    height: 960px;
+    height: 900px;
 }
 
 .container_right img {
-    width: 960px;
+    height: 100%;
 }
 
 .boxed {
@@ -82,7 +83,7 @@ export default {
 .container_left {
     background-color: black;
     width: 100%;
-    padding: 110px 0 0 220px;
+    /* padding: 110px 0 0 220px; */
 }
 
 .title_left {
@@ -94,11 +95,17 @@ export default {
     height: 100%;
 }
 
+.description {
+    max-width: 600px;
+}
+
 .percentage {
     border: 8px solid var(--circle-color);
     border-radius: 50%;
     padding: 30px;
     font-size: 25px;
+    width: auto;
+    height: auto;
 }
 
 .symbol_percentage {
@@ -112,7 +119,7 @@ export default {
 }
 
 li {
-    padding: 60px 0;
+    padding: 60px 0 0 0;
 }
 
 .list_right {

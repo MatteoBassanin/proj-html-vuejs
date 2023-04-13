@@ -41,7 +41,7 @@ li {
 }
 
 img {
-    height: 35px;
+    height: 30px;
     filter: invert(40%);
 }
 </style>

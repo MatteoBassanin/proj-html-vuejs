@@ -67,6 +67,10 @@ export default {
 
 
 <style scoped>
+/* .container {
+    margin-left: 145px;
+} */
+
 .wrapper {
     height: 650px;
     background-image: url("./img/bg-10.jpg");
