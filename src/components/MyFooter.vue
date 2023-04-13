@@ -72,7 +72,7 @@ export default {
 } */
 
 .wrapper {
-    height: 650px;
+    height: 700px;
     background-image: url("./img/bg-10.jpg");
     background-position: center;
 }

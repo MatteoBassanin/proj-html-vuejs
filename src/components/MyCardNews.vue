@@ -45,6 +45,7 @@ img {
 
 .container {
     width: 100%;
+    position: relative;
 
 }
 
@@ -54,11 +55,9 @@ img {
 
 p {
     text-align: center;
-    position: relative;
-    bottom: 130px;
-    left: 60px;
+    position: absolute;
+    bottom: 20%;
     color: white;
-    font-size: 25px;
-    max-width: 250px;
+    font-size: 20px;
 }
 </style>

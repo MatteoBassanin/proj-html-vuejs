@@ -87,9 +87,10 @@ export default {
     width: 100vw;
 }
 
+/* 
 .contacts {
     padding-right: 130px;
-}
+} */
 
 a {
     color: var(--font-secondary);

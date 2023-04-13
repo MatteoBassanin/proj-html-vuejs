@@ -72,6 +72,12 @@ export default {
     height: 600px;
 }
 
+.col_right {
+    padding-left: 80px
+}
+
+;
+
 .container {}
 
 h2 {
@@ -105,12 +111,12 @@ i {
 input,
 select {
     height: 40px;
-    width: 250px;
+    width: 300px;
     border-radius: 3px;
 }
 
 textarea {
-    width: 510px;
+    width: 610px;
     border-radius: 3px;
 }
 
@@ -153,7 +159,7 @@ p {
 }
 
 .col_left {
-    padding-right: 30px;
+    padding-right: 130px;
 }
 
 a {

@@ -70,7 +70,13 @@ export default {
     height: 900px;
 }
 
+.container_right {
+    width: 50%;
+}
+
 .container_right img {
+    object-fit: cover;
+    width: 100%;
     height: 100%;
 }
 
@@ -82,7 +88,7 @@ export default {
 
 .container_left {
     background-color: black;
-    width: 100%;
+    min-width: 50%;
     /* padding: 110px 0 0 220px; */
 }
 

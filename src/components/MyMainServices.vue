@@ -71,7 +71,7 @@ h2 {
 
 .cards,
 .description {
-    padding: 110px 0 0 110px;
+    padding: 110px 0 0 70px;
 }
 
 .paragraph p {
