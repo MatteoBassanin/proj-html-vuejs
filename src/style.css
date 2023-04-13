@@ -55,6 +55,10 @@
   align-items: center;
 }
 
+.w_100 {
+  width: 100%;
+}
+
 .w_80 {
   width: 80%;
 }

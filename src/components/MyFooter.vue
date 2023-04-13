@@ -1,6 +1,6 @@
 <template>
     <div class="wrapper">
-        <div class="container w_80 m_auto c_third_font d_flex justify_center h_100 align_center">
+        <div class="container w_80 m_auto c_third_font d_flex justify_center h_100 align_center f_wrap">
             <div class="first col">
                 <div class="bot_logo"><span class="beginning_logo">NEX</span> <span
                         class="ending_logo c_text_top ">GEN</span></div>
@@ -15,7 +15,7 @@
                 </div>
             </div>
             <div class="second col list">
-                <div>
+                <div class="inner_box">
                     <h3>About</h3>
                     <ul>
                         <li v-for="element in store.arrayFooter"><i class="fa-solid fa-chevron-right"></i><a href="#">{{
@@ -25,21 +25,28 @@
                 </div>
             </div>
             <div class="third col list">
-                <h3>Transport</h3>
-                <ul>
-                    <li v-for="element in store.arrayFooter"><i class="fa-solid fa-chevron-right"></i><a href="#">{{
-                        element.transport }}</a></li>
-                </ul>
+                <div class="inner_box">
+                    <h3>Transport</h3>
+                    <ul>
+                        <li v-for="element in store.arrayFooter"><i class="fa-solid fa-chevron-right"></i><a href="#">{{
+                            element.transport }}</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="forth col list">
-                <h3>Support</h3>
-                <ul>
-                    <li v-for="element in store.arrayFooter"><i class="fa-solid fa-chevron-right"></i><a href="#">{{
-                        element.support }}</a></li>
-                </ul>
+                <div class="inner_box">
+                    <h3>Support</h3>
+                    <ul>
+                        <li v-for="element in store.arrayFooter"><i class="fa-solid fa-chevron-right"></i><a href="#">{{
+                            element.support }}</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom_footer d_flex w_80 justify_between">
+                <p>Enjot the low price.We are tracking any intention of piracy.</p>
+                <p>©2020 NEXGEN is Proudly powered by <span><a href="#">Codings</a></span></p>
             </div>
         </div>
-
     </div>
 </template>
 
@@ -91,11 +98,12 @@ export default {
 a {
     text-decoration: none;
     color: var(--third-font);
+    font-size: 14px;
 }
 
 .col {
-    padding: 0 20px 150px 20px;
-    width: 20%;
+    padding: 30px 10px 50px 10px;
+    width: calc(100% / 5 - 20px);
 }
 
 .first {
@@ -133,5 +141,28 @@ li {
 .second,
 .third {
     margin: 20px;
+}
+
+.inner_box {
+    width: 50%;
+    margin: auto;
+}
+
+.second,
+.third,
+.forth {
+    /* background-image: linear-gradient(rgba(255, 255, 255, 0.1) 60%, rgba(0, 0, 0, 0.1) 55%); */
+    background-color: rgba(0, 0, 0, 0.1);
+
+    border-radius: 10px;
+}
+
+span a {
+    color: var(--primary_color);
+}
+
+.bottom_footer {
+    position: relative;
+    top: 50px;
 }
 </style>
