@@ -27,8 +27,8 @@
                     </li>
                     <li class="d_flex">
                         <div class="list_left">
-                            <div class="percentage"> 1 <span class="symbol_percentage">%</span></div>
-                            <div class="one_per_cent"></div>
+                            <div class="percentage one_per_cent"> 1 <span class="symbol_percentage">%</span></div>
+
                         </div>
                         <div class="list_right">
                             <h3>Flexibility</h3>
@@ -112,17 +112,17 @@ export default {
     font-size: 25px;
     width: auto;
     height: auto;
+
 }
+
+
+
 
 .symbol_percentage {
     font-size: 15px;
 
 }
 
-.one_per_cent {
-    width: 5px;
-    color: var(--primary_color);
-}
 
 li {
     padding: 60px 0 0 0;
