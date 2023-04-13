@@ -37,9 +37,10 @@ export default {
 <style scoped>
 img {
     object-fit: cover;
-    width: 365px;
+    width: 100%;
     filter: brightness(50%);
     border-radius: 20px;
+
 }
 
 .container {

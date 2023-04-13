@@ -1,9 +1,12 @@
 <template>
     <div class="card_container">
-        <img :src="picture" alt="">
-        <div class="text">
-            <h3 class="c_font_color_dark">{{ title }}</h3>
-            <p>{{ textinfo }}</p>
+        <div class="wrapper">
+            <img :src="picture" alt="">
+            <div class="text">
+                <h3 class="c_font_color_dark">{{ title }}</h3>
+                <p>{{ textinfo }}</p>
+            </div>
+
         </div>
     </div>
 </template>
@@ -37,9 +40,14 @@ export default {
     background-color: white;
     text-align: center;
     border-radius: 15px;
-    width: 330px;
+    width: 300px;
     height: 370px;
 }
+
+.wrapper {
+    width: 100%;
+}
+
 
 img {
     width: 240px;

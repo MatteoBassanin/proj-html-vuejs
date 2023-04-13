@@ -1,7 +1,7 @@
 <template>
     <div class="wrapper">
-        <div class="container w_80 m_auto h_100">
-            <ul class="d_flex justify_center align_center h_100">
+        <div class="container h_100 w_70 m_auto">
+            <ul class="d_flex justify_between align_center h_100">
                 <li><img src="img/logo-5.png" alt=""></li>
                 <li><img src="img/logo-1.png" alt=""></li>
                 <li><img src="img/logo-2.png" alt=""></li>
@@ -37,7 +37,7 @@ export default {
 }
 
 li {
-    padding: 0 35px;
+    /* padding: 0 45px; */
 }
 
 img {

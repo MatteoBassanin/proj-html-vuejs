@@ -1,6 +1,6 @@
 <template>
     <div class="wrapper">
-        <div class="container w_80 m_auto d_flex justify_between h_100">
+        <div class="container w_80 m_auto d_flex justify_center h_100">
             <div class="col_left">
                 <div class="text_left_top">
                     <h4 class="c_green_text">SEND A MESSAGE</h4>
@@ -69,13 +69,10 @@ export default {
 <style scoped>
 .wrapper {
     background-color: var(--background-top-main);
-    height: 800px;
+    height: 600px;
 }
 
-.container {
-    padding: 50px 120px 0 15px;
-    /* margin-left: 133px; */
-}
+.container {}
 
 h2 {
     padding: 20px 0;
@@ -108,12 +105,12 @@ i {
 input,
 select {
     height: 40px;
-    width: 350px;
+    width: 250px;
     border-radius: 3px;
 }
 
 textarea {
-    width: 710px;
+    width: 510px;
     border-radius: 3px;
 }
 
@@ -156,7 +153,7 @@ p {
 }
 
 .col_left {
-    padding: 0 150px;
+    padding-right: 30px;
 }
 
 a {

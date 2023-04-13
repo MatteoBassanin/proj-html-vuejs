@@ -33,8 +33,11 @@
                     <nav>
                         <ul class="d_flex fs_17">
                             <li class="pd_20" v-for="link in linkTop"><a href="#">{{ link.linkName }}</a></li>
+                            <li class="button_container">
+                                <div class="button solid nav_button "><a href="#">GET IN TOUCH</a> </div>
+                            </li>
                         </ul>
-                        <div class="button solid nav_button "><a href="#">GET IN TOUCH</a> </div>
+
                     </nav>
                     <div class="title_jumbo c_text_top m_auto">
                         <h1 class="first_word">Logistics</h1>
@@ -88,14 +91,8 @@ export default {
     padding-right: 130px;
 }
 
-/* .opening_hours,
-.container_left {
-    padding-left: 60px;
-} */
-
 a {
     color: var(--font-secondary);
-
 }
 
 i {
@@ -117,7 +114,6 @@ i {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
-    /* z-index: 99999; */
 }
 
 a {
@@ -135,12 +131,14 @@ a {
 }
 
 .nav_button {
-    position: relative;
-    bottom: 47px;
-    left: 540px;
-    padding: 10px 20px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px
 }
 
+.button_container {
+    padding-top: 10px;
+}
 
 .beginning_logo {
     color: #11A3A2;

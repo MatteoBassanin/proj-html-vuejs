@@ -11,7 +11,7 @@
                     <div class="button solid">SEE ALL</div>
                 </div>
             </div>
-            <div class="list_card_news d_flex">
+            <div class="list_card_news d_flex justify_between">
                 <MyCardNews v-for="card in store.cardNewsArray" :textCard="card.description" :imgNews="card.img">
                 </MyCardNews>
             </div>
@@ -56,8 +56,8 @@ h2 {
 
 .button_container {
     align-self: center;
-    position: relative;
-    right: 100px;
+    /* position: relative;
+    right: 100px; */
 }
 
 .decription {
