@@ -22,7 +22,7 @@
                         <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
                     </div>
                     <div class="button_container">
-                        <div class="button solid">SEND</div>
+                        <div class="button solid"> <a href="#">SEND</a></div>
                     </div>
 
                 </div>
@@ -160,5 +160,9 @@ p {
 a {
     text-decoration: none;
     color: var(--primary_color)
+}
+
+.solid a {
+    color: white;
 }
 </style>
