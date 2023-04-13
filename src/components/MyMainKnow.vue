@@ -8,10 +8,10 @@
             </div>
             <div class="right_side">
                 <div class="input_container">
-                    <input type="text" placeholder="name">
+                    <input type="text" placeholder="Name">
                 </div>
                 <div class="input_container">
-                    <input type="text" placeholder="email">
+                    <input type="text" placeholder="Email">
                 </div>
                 <div class="botton_container">
                     <div class="button solid">SUBSCRIBE</div>
@@ -38,6 +38,12 @@ export default {
 
 
 <style scoped>
+.left_side {
+    width: 50%;
+}
+
+
+
 .wrapper {
     background-image: url("img/bg-1.jpg");
     background-position: center;
@@ -57,7 +63,8 @@ h2 {
 }
 
 .input_container input {
-    padding: 10px 90px;
+    width: 350px;
+    height: 35px;
 }
 
 input {
@@ -65,6 +72,10 @@ input {
     border: none;
     margin: 10px;
     border-radius: 3px;
+}
+
+input::placeholder {
+    padding-left: 10px;
 }
 
 p {

@@ -9,12 +9,12 @@
                 </div>
                 <div class="form">
                     <div class="first row">
-                        <input type="text" placeholder="name">
+                        <input type="text" placeholder="Name">
                         <input type="text" placeholder="Email">
                     </div>
                     <div class="second row">
-                        <input type="text" placeholder="phone">
-                        <select name="" id="" class="c_text_grey">
+                        <input type="text" placeholder="Phone">
+                        <select name="" id="" class="c_font_color_placeholder">
                             <option value="">More info</option>
                         </select>
                     </div>
@@ -84,6 +84,7 @@ i {
     background-color: var(--rounded_border);
     padding: 10px;
     border-radius: 50%;
+    margin-right: 10px;
 }
 
 .boxed {
@@ -102,16 +103,24 @@ i {
     padding: 7px 0;
 }
 
-input {
-    padding: 10px 90px;
+input,
+select {
+    height: 40px;
+    width: 350px;
+    border-radius: 3px;
 }
 
 textarea {
-    padding: 0 220px;
+    width: 710px;
+    border-radius: 3px;
 }
 
-select {
-    padding: 10px 125px;
+textarea::placeholder {
+    padding: 10px;
+}
+
+input::placeholder {
+    padding-left: 10px;
 }
 
 .row {
@@ -132,6 +141,12 @@ textarea,
 input {
     background-color: #DCE2DB;
     border: none;
+}
+
+
+p {
+    color: var(--font_text_paragraph);
+    font-weight: 100;
 }
 
 .icon {

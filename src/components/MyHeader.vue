@@ -145,15 +145,26 @@ a {
 .beginning_logo {
     color: #11A3A2;
     background-color: rgba(0, 119, 119, 0.4);
-    padding: 5px 5px 5px 20px;
+    padding: 10px 1px 10px 30px;
     border-radius: 15px 0 0 15px;
+    font-size: 20px;
 }
+
+.ending_logo {
+    font-size: 20px;
+}
+
 
 h1 {
     font-size: 62px;
+    max-width: 280px;
 
 }
 
+.first_word {
+    background-image: linear-gradient(rgba(255, 255, 255, 0) 60%, rgba(0, 119, 119, 0.5) 55%);
+    border-radius: 10px;
+}
 
 .parapragh {
     font-size: 20px;

@@ -16,8 +16,8 @@
 }
 
 .button {
-  border: 1px solid var(--primary_color);
-  border-radius: 6px;
+  border: 2px solid var(--primary_color);
+  border-radius: 3px;
   max-width: 150px;
   text-align: center;
   padding: 10px 15px;
@@ -91,13 +91,17 @@
   color: var(--third-font);
 }
 
+.c_font_color_placeholder {
+  color: #6A6A6A
+}
+
 :root {
   --primary_color: #007777;
   --font-color: #131216;
   --header-top: #444F5A;
   --font-secondary: #E5EbE5;
   --primary_color_darker: #048383;
-  --grey-text: #71939c;
+  --grey-text: #C4C7D4;
   --background-top-main: #edf4ec;
   --circle-color: #212126;
   --boxed_color: #0F272D;
@@ -105,6 +109,7 @@
   --light_boxed_color: #DAECED;
   --rounded_border: #B7CCC7;
   --third-font: #919194;
+  --font_text_paragraph: #909997;
 }
 
 
